@@ -1,0 +1,3 @@
+# Design Rationale
+
+For this project, I decided to split the program into different Python files to make the code easier to understand and manage. The `cli.py` file handles the commands entered by the user, while `services.py` deals with calculations such as income, expenses, and balance. The `storage.py` file is responsible for saving and loading transactions, and `validation.py` checks that the information entered is correct. I chose this structure because it makes it easier to find errors and test different parts of the program separately. I also limited the program to EUR to keep the calculations simple and avoid problems with different currencies. One limitation is that the program does not currently have an undo feature, but this could be added in the future.

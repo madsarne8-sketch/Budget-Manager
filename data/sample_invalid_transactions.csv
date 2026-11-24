@@ -1,0 +1,4 @@
+id,date,kind,category,amount,currency
+T001,2026-09-04,expense,food,18.50,EUR
+T002,2026-09-05,expense,food,-9,EUR
+T003,2026-09-06,expense,unknown,10,EUR
